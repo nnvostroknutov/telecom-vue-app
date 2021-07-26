@@ -78,7 +78,7 @@
       }
     },
     async created() {
-        const { data } = await this.axios.get("http://localhost:3000/users/1");
+        const { data } = await this.axios.get("https://my-json-server.typicode.com/nnvostroknutov/telecom-fake-backend/users/1");
         this.username = data.name;
         this.email = data.email
     }
